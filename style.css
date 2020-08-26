@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(./pic/arches.png);
+
+
+}
+
+a {
+    text-decoration: none;
+    ;
+
+}
+
+a:hover {
+    color: black;
+}
+
+.logo li {
+
+
+    margin: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    display: inline-block;
+    text-shadow: 10px 9px 6px rgba(31, 46, 15, 0.86);
+
+
+}
+
+header {
+    font-family: 'Lobster Two', cursive;
+    background-image: url(./pic/DSC00696.JPG);
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    -moz-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    background-size: cover;
+
+}
+
+/* tulisan jelah indonesia */
+.head h1 {
+    padding: 10px;
+    color: #313184;
+    font-size: 80px;
+    text-shadow: 5px 12px 1px rgba(12, 2, 6, 0.24)
+}
+
+/* untuk tulisan jurnal pribad */
+.judul-atas h1 {
+    text-align: center;
+    color: #09299c;
+    font-size: 60px;
+
+
+}
+
+/* div jurnal pribadi */
+.judul-atas {
+
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    /* position: relative;
+    top: 50px; */
+}
+
+
+
+
+
+
+
+/* kotak bagian tengah */
+.cerita {
+    /* margin: 60px 70px; */
+    margin: 60px 70px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    -moz-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    position: relative;
+    top: 40px;
+
+}
+
+.isi-artikel {
+
+    padding: 30px;
+    margin: 20px 30px;
+    border: 1px groove black;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: -5px 31px 25px -28px rgba(13, 15, 15, 1);
+    -moz-box-shadow: -5px 31px 25px -28px rgba(13, 15, 15, 1);
+    box-shadow: -5px 31px 25px -28px rgba(13, 15, 15, 1);
+
+
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+
+}
+
+/* isi paragraf */
+p {
+    color: rgb(14, 12, 15);
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: 'Varela Round', sans-serif;
+    text-indent: 1cm;
+}
+
+.paragraf-gede {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.foto img {
+
+    width: 320px;
+    height: 125px;
+    padding: 3px;
+    border: 2px solid black
+}
+
+.isi-foto {
+
+    padding: 30px;
+    border: 1px solid black;
+
+}
+
+.paragraf-gede {
+    text-align: justify;
+    padding: 10px;
+}
+
+.foto {
+    margin: 60px 70px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    -moz-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    position: relative;
+    top: 40px;
+}
+
+.foto h2 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Varela Round', sans-serif;
+
+
+}
+
+footer {
+
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    margin-bottom: 0;
+}
