@@ -1,5 +1,5 @@
 MEMBUAT HALAMAN WEBSITE SEDERHANA
 
-aldamtrisena.github.io
+http.//www.aldamtrisena.github.io
 
   
