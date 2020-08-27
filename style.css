@@ -194,10 +194,17 @@ footer {
 #contact {
     text-align: center;
     font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
 
 }
 
-#contact img {
-    width: 70px;
 
+
+#fb {
+    width: 40px;
+    padding-top: 2px;
+}
+
+#ig {
+    width: 70px;
 }
