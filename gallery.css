@@ -1,5 +1,6 @@
 * {
     margin: 0;
+
 }
 
 body {
@@ -56,130 +57,66 @@ header {
     text-shadow: 5px 12px 1px rgba(12, 2, 6, 0.24)
 }
 
+/* foto bagian bawah */
+.gBawah {
 
-
-/* untuk tulisan jurnal pribad */
-.judul-atas h1 {
-    text-align: center;
-    color: #09299c;
-    font-size: 60px;
-
-
-}
-
-/* div jurnal pribadi */
-.judul-atas {
-
-    box-sizing: border-box;
-    padding: 40px;
-    text-align: center;
-    width: 100%;
-    /* position: relative;
-    top: 50px; */
-}
-
-
-
-
-
-
-
-/* kotak bagian tengah */
-.cerita {
-    /* margin: 60px 70px; */
-    margin: 60px 70px;
-    background-color: whitesmoke;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
-    -moz-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
-    box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
-    position: relative;
-    top: 40px;
-
-}
-
-
-
-.isi-artikel {
-
-    padding: 30px;
-    margin: 20px 30px;
-    border: 1px groove black;
-    border-top-style: none;
-    border-right-style: none;
-    border-left-style: none;
-    -webkit-box-shadow: -5px 31px 25px -28px rgba(13, 15, 15, 1);
-    -moz-box-shadow: -5px 31px 25px -28px rgba(13, 15, 15, 1);
-    box-shadow: -5px 31px 25px -28px rgba(13, 15, 15, 1);
-
-
-}
-
-h2 {
-    margin-top: 20px;
-    font-size: 30px;
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
-
-
-}
-
-h2:hover {
-    transform: scale(1.3) rotate(9deg);
-}
-
-/* isi paragraf */
-p {
-    color: rgb(14, 12, 15);
-    margin-top: 20px;
-    line-height: 30px;
-    font-family: 'Varela Round', sans-serif;
-    text-indent: 1cm;
-}
-
-.paragraf-gede {
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.foto img {
-
-    width: 320px;
-    height: 125px;
+    width: 120px;
+    height: 70px;
     padding: 3px;
-    border: 2px solid black
-}
+    border: 2px solid black;
+    box-shadow: 10px 17px 5px -8px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
 
-.isi-foto {
-
-    padding: 30px;
-    border: 1px solid black;
 
 }
 
-.paragraf-gede {
-    text-align: justify;
-    padding: 10px;
+.gBawah:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .foto {
-    margin: 60px 70px;
+    margin: 30px 40px;
     background-color: whitesmoke;
     border: 1px solid white;
-    padding: 30px;
+    padding: 52px;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
     -moz-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
     box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
-    position: relative;
-    top: 40px;
+
 }
 
-.foto h2 {
+.gAtas {
+
+    max-width: 890px;
+    max-height: 560px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: auto 40px;
+    border-radius: 12px;
+    box-shadow: 10px 17px 5px -8px rgba(0, 0, 0, 0.75);
+
+}
+
+.foto-atas {
+    margin: 60px 70px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    padding: 40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    -moz-box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+    box-shadow: 10px 10px 43px 2px rgba(149, 193, 204, 1);
+
+}
+
+.foto h2,
+h5 {
     text-align: center;
-    margin: 20px;
+    margin: 20px auto;
     font-family: 'Varela Round', sans-serif;
+    font-size: 60px;
 
 
 }
